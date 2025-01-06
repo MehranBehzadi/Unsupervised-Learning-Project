@@ -1,17 +1,16 @@
 # machine_learning_project-unsupervised-learning
 
 ## Project Outcomes
-- Unsupervised Learning: perform unsupervised learning techniques on a wholesale data dataset. The project involves four main parts: exploratory data analysis and pre-processing, KMeans clustering, hierarchical clustering, and PCA.
-### Duration:
-Approximately 1 hour and 40 minutes
-### Project Description:
-In this project, we will apply unsupervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+using Unsupervised learning models on wholesale dataset.KMeans Clustering, hierarchical clustrering, and finally PCA are the techniques that have been used on the dataset, and finally performing Exploratory data analysis on the dataset 
 
-The data set for this project is the "Wholesale Data" dataset containing information about various products sold by a grocery store.
-The project will involve the following tasks:
+### Project Description and process:
+Using Python to import the dataset and then performed cleaning the dataset, if necessary, to check if there is any missing or incorrect data. Finally perfromed summary statistcs to find statistics such as median, standard deviation, and mean for each column. Data visualizations such as identifying outliers(e.g Box plot), relationship between features (pair plot), and correlation analysis (heatmap) have been used to find and understand relationships and trends accoring to the dataset.
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Unsupervised learning: We will use the Wholesale Data dataset to perform k-means clustering, hierarchical clustering, and principal component analysis (PCA) to identify patterns and group similar data points together. We will determine the optimal number of clusters and communicate the insights gained through data visualization.
+Using elbow method to identify number of optimal clusters to accomplish the objective, which is grouping similar products based on their attributes. For example, one cluster demonstrates higher values for milk and grocery representing what buyers spending their general needs.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+The purpose of hierarchical clustering is to group similar data points together into a hierarchy of clusters. Dendrogram provides insight on how data points are merged or split together based on their similarities. Hierarchical clustering captured subtle group differences missed by KMeans, particularly in smaller clusters.
 
+Principal component analysis (PCA) allows to draw accurate conclusions about underly structure of the dataset provided. PCA reduces dimentionality of a dataset while retaining as much information as possible. The first principal component explains the largest variance. In this case approximately 70% of total variance are captured in the first two components. This allows speeding up machine learning and reducing any overfitting by reducing dimensions. 
+
+#### Challenges
+Understanding, comprehending, and providing feednback on the findings of each technique to explain the wholesale dataset 
